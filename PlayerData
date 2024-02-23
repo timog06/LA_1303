@@ -18,7 +18,7 @@ function module.updatePlayerData(player, silverToAdd, killsToAdd)
 		end
 		if leaderstats:FindFirstChild("Kills") then
 			leaderstats.Kills.Value = tempPlayerData[userId].Kills
-			print("Kills Updated")
+			--print("Kills Updated")
 		end
 	end
 end

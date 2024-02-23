@@ -23,5 +23,6 @@ Players.PlayerRemoving:Connect(PlayerDataModule.savePData)
 game:BindToClose(function()
 	for _, player in Players:GetPlayers() do
 		PlayerDataModule.savePData(player)
+		-- print("PlayerData saved successfully")
 	end
 end)
